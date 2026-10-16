@@ -1,0 +1,30 @@
+{
+  "name": "factory-station-3d",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A living, low-poly 3D factory station for React: your project's piece on a machine, a sign with its icon, a robot arm, a conveyor belt and a little workshop around it.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^5",
+    "vite": "^8.3.4"
+  },
+  "packageManager": "pnpm@11.9.0"
+}
